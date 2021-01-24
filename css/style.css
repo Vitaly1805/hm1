@@ -190,3 +190,120 @@ html a, body a {
   text-transform: uppercase;
   max-width: 730px;
 }
+
+.content {
+  color: #fff;
+}
+.content__row {
+  display: flex;
+}
+.content a {
+  color: #fff;
+}
+.content .title {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content .title::after {
+  content: "";
+  margin: 40px auto 0 auto;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #fff;
+}
+.content__season {
+  min-height: 730px;
+  width: 58vw;
+  padding: 90px 40px;
+}
+.content .clock {
+  text-align: center;
+  width: 260px;
+  height: 325px;
+}
+.content .clock__page {
+  background: #191B1C;
+}
+.content .clock__wrap {
+  display: flex;
+  margin: 50px 0 0 0;
+  justify-content: space-between;
+}
+.content .clock__page {
+  height: 325px;
+  width: 260px;
+  padding: 55px 22px 56px 23px;
+}
+.content .clock__title {
+  margin: 23px 0 7px 0;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+.content .clock__subtitle {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #D0D0D0;
+}
+.content__collection {
+  background: url("../images/content/Collection1.png") 0 0/cover no-repeat;
+  width: 42vw;
+  padding: 450px 0 0 0;
+}
+.content__collection .button__indent {
+  width: 140px;
+  margin: 30px auto 0 auto;
+}
+.content .button {
+  border: 1px solid #fff;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: block;
+  padding: 12px 28px;
+}
+.content__page {
+  width: 45vw;
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../images/content/Collection2.png") 0 0/cover no-repeat, #000000;
+  height: 600px;
+}
+.content__column {
+  width: 55vw;
+}
+.content .content__column .title__indent {
+  margin: 100px 0 40px 0;
+}
+.content .content__column .button__indent {
+  width: 320px;
+  margin: 60px auto 0 auto;
+}
+.content__text {
+  width: 471px;
+  margin: 0 auto 60px auto;
+  line-height: 150%;
+  text-align: center;
+}
+.content__new {
+  padding: 120px 0 0 0;
+  height: 1290px;
+}
+.content__new .content__clock {
+  display: block;
+  width: 1150px;
+  margin: 81px auto 0 auto;
+}
+.content__new .content__clock .content__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 120px 0;
+}

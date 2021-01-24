@@ -126,3 +126,123 @@ html,body{
         max-width: 730px;
     }
 }
+
+.content{        
+    color: #fff;
+    &__row{
+        display: flex;    
+    }
+    a{
+        color: #fff;
+    }
+    .title{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .title::after{
+        content: "";
+        margin: 40px auto 0 auto;
+        display: block;
+        width: 120px;
+        height: 1px;
+        background: #fff;
+    }
+    &__season{
+        min-height: 730px;
+        width:58vw;
+        padding: 90px 40px;
+    }
+    .clock{
+        text-align: center;
+        width: 260px;
+        height: 325px;
+        &__page{
+            background: #191B1C;
+        }
+        &__wrap{
+            display: flex;
+            margin: 50px 0 0 0;
+            justify-content: space-between;
+        }
+        &__page{
+            height: 325px;
+            width: 260px;
+            padding: 55px 22px 56px 23px;
+        }
+        &__title{
+            margin: 23px 0 7px 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        &__subtitle{
+            font-family: 'Playfair Display';
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            color: #D0D0D0;
+        }
+    }
+    &__collection{
+        background: url('../images/content/Collection1.png') 0 0/cover no-repeat;
+        width: 42vw;   
+        padding: 450px 0 0 0 ;
+        .button__indent{
+            width: 140px;
+            margin: 30px auto 0 auto;
+        }
+    }
+    .button{
+        border: 1px solid #fff;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: block;
+        padding: 12px 28px;
+    }
+    &__page{
+        width: 45vw;
+        background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url('../images/content/Collection2.png') 0 0/cover no-repeat, #000000;
+        height: 600px;
+    }
+    &__column{
+        width: 55vw;
+    }
+    .content__column{
+        .title__indent{
+            margin: 100px 0 40px 0;
+        }
+        .button__indent{
+            width: 320px;
+            margin: 60px auto 0 auto;
+        }
+    }
+    &__text{
+        width: 471px;
+        margin: 0 auto 60px auto;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    &__new{
+        padding: 120px 0 0 0;
+        height: 1290px;
+        .content__clock{
+            display: block;
+            width: 1150px;
+            margin: 81px auto 0 auto;
+            .content__row{
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 120px 0;
+            }
+        }
+    }
+}
