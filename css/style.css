@@ -307,3 +307,85 @@ html a, body a {
   justify-content: space-between;
   margin: 0 0 120px 0;
 }
+
+.footer {
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+}
+.footer__top {
+  background: url("../images/footer/man.png") 0 0/cover no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.footer__wrw {
+  margin: 0 auto;
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrap {
+  width: 350px;
+}
+.footer__about {
+  height: 210px;
+}
+.footer-title {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.footer-title__indent {
+  margin: 80px 0 40px 0;
+}
+.footer-text {
+  line-height: 150%;
+}
+.footer__name-categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-button {
+  background: #000;
+  padding: 10px 20px;
+  line-height: 150%;
+}
+.footer-button__indent {
+  margin: 0 20px 20px 0;
+}
+.footer__form {
+  display: flex;
+  align-items: center;
+  margin: 35px 0 0 0;
+}
+.footer__input input {
+  width: 210px;
+  height: 42px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+.footer__input input::placeholder {
+  color: #BDBDBD;
+}
+.footer__bottom {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.footer__copy {
+  font-size: 12px;
+  line-height: 16px;
+  color: #D0D0D0;
+}
+.footer__author {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #D0D0D0;
+}
