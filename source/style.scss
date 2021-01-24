@@ -246,3 +246,87 @@ html,body{
         }
     }
 }
+
+.footer{
+    color: #fff;
+    a{
+        color: #fff;
+    }
+    &__top{
+        background: url('../images/footer/man.png') 0 0/cover no-repeat;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    &__wrw{
+        margin: 0 auto;
+        width: 1110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-wrap{
+        width: 350px;
+    }
+    &__about{
+        height: 210px;
+    }
+    &-title{
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    &-title__indent{
+        margin: 80px 0 40px 0;
+    }
+    &-text{
+        line-height: 150%;
+    }
+    &__name-categories{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-button{
+        background: #000;
+        padding: 10px 20px;
+        line-height: 150%;
+        &__indent{
+            margin: 0 20px 20px 0;
+        }
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        margin: 35px 0 0 0;
+    }
+    &__input{
+        input{
+            width: 210px;
+            height: 42px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.4);
+            color: #fff; 
+        }
+        input::placeholder { 
+            color: #BDBDBD; 
+        }
+    }
+
+    &__bottom{
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    &__copy{
+        font-size: 12px;
+        line-height: 16px;
+        color: #D0D0D0;
+    }
+    &__author{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #D0D0D0;
+    }
+}
